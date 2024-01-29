@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<EditText
+    android:layout_width="400dp"
+    android:layout_height="40dp"
+    android:id="@+id/txt1"
+    android:hint="Enter Amount"
+    >
+</EditText>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:id="@+id/txt2"
+        android:hint="Enter Rate of Interest"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:id="@+id/txt3"
+        android:hint="Enter Duration"
+        >
+    </EditText>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Calculate"
+        android:onClick="btnclick"
+        ></Button>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:id="@+id/txt4"
+        android:hint="Interest"
+        >
+    </EditText>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:id="@+id/txt5"
+        android:hint="Total"
+        >
+    </EditText>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
